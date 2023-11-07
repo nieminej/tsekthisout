@@ -241,5 +241,5 @@ async def on_ready():
     print(f'Logged in as {bot.user.name} (ID: {bot.user.id})') 
     print('------')
 
-bot.run('MTE3MDMyNjM1OTc4MDg5Njc2OA.G2DAvT.9TTPLvZTLFDkznzpqhUyfJzkG3jPmMHuzEhFpI') 
+bot.run('BOT_TOKEN') 
 atexit.register(clear_downloaded_files)
